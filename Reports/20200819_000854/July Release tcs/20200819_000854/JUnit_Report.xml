@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="July Release tcs" time="145.045" tests="2" failures="0" errors="0">
+   <testsuite name="July Release tcs" tests="2" failures="0" errors="0" time="145.045" timestamp="2020-08-19 00:09:07" hostname="chaitu - chaitanya" id="Test Suites/July Release tcs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chaitu\\Katalon Studio\\Chaitanya Demo\\Reports\\20200819_000854\\July Release tcs\\20200819_000854"/>
+         <property name="logFiles" value="C:\\Users\\chaitu\\Katalon Studio\\Chaitanya Demo\\Reports\\20200819_000854\\July Release tcs\\20200819_000854\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="chaitu - chaitanya"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Firefox 79.0"/>
+         <property name="hostAddress" value="192.168.31.158"/>
+         <property name="sessionId" value="a357ecb3-fd94-49d1-bf8f-d8f8d99215f3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCase1_Helth care" time="58.539" classname="Test Cases/TestCase1_Helth care" status="PASSED">
+         <system-out><![CDATA[2020-08-19 00:09:07 - [TEST_CASE][PASSED] - Test Cases/TestCase1_Helth care: Test Cases/TestCase1_Helth care
+
+2020-08-19 00:09:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-19 00:09:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-08-19 00:09:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-19 00:09:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-19 00:09:24 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Testdata_Internal").getValue("URL", 1)): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-08-19 00:09:35 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2020-08-19 00:09:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Username_username"), findTestData("Testdata_Internal").getValue("UserName", 1)): Text 'John Doe' is set on object 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Username_username'
+
+2020-08-19 00:09:37 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Username_username'
+
+2020-08-19 00:09:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Password_password"), findTestData("Testdata_Internal").getValue("Password", 1)): Text ****** has been set on object 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Password_password'
+
+2020-08-19 00:09:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Password_password'
+
+2020-08-19 00:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-08-19 00:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2020-08-19 00:09:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2020-08-19 00:09:44 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2020-08-19 00:09:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2020-08-19 00:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2020-08-19 00:09:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2020-08-19 00:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+2020-08-19 00:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/td_25")): Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/td_25' is clicked on
+
+2020-08-19 00:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/td_25' is clicked on
+
+2020-08-19 00:09:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/textarea_Comment_comment"), findTestData("Testdata_Internal").getValue("Comments", 1)): Text 'Please book the appointment' is set on object 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2020-08-19 00:09:50 - [MESSAGE][PASSED] - Text 'Please book the appointment' is set on object 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2020-08-19 00:09:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2020-08-19 00:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2020-08-19 00:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/h2_Appointment Confirmation")): Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/h2_Appointment Confirmation' is clicked on
+
+2020-08-19 00:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/h2_Appointment Confirmation' is clicked on
+
+2020-08-19 00:09:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a")): Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' is clicked on
+
+2020-08-19 00:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/p_Please be informed that your appointment _11813a' is clicked on
+
+2020-08-19 00:09:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-19 00:10:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCase2_ecommerce" time="52.155" classname="Test Cases/TestCase2_ecommerce" status="PASSED">
+         <system-out><![CDATA[2020-08-19 00:10:06 - [TEST_CASE][PASSED] - Test Cases/TestCase2_ecommerce: Test Cases/TestCase2_ecommerce
+
+2020-08-19 00:10:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-19 00:10:08 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-08-19 00:10:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-19 00:10:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-19 00:10:19 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Testdata_External").getValue("URL", 3)): Navigate to 'https://rahulshettyacademy.com/angularpractice/' successfully
+
+2020-08-19 00:10:38 - [MESSAGE][PASSED] - Navigate to 'https://rahulshettyacademy.com/angularpractice/' successfully
+
+2020-08-19 00:10:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Name_name"), findTestData("Testdata_External").getValue("UserName", 3)): Text 'chaitanya' is set on object 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Name_name'
+
+2020-08-19 00:10:40 - [MESSAGE][PASSED] - Text 'chaitanya' is set on object 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Name_name'
+
+2020-08-19 00:10:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Email_email"), findTestData("Testdata_External").getValue("Email", 3)): Text 'test@gmail.com' is set on object 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Email_email'
+
+2020-08-19 00:10:41 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Email_email'
+
+2020-08-19 00:10:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Password_exampleInputPassword1"), findTestData("Testdata_External").getValue("Password", 3)): Text ****** has been set on object 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Password_exampleInputPassword1'
+
+2020-08-19 00:10:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Password_exampleInputPassword1'
+
+2020-08-19 00:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Password_exampleCheck1")): Object: 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Password_exampleCheck1' is clicked on
+
+2020-08-19 00:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Password_exampleCheck1' is clicked on
+
+2020-08-19 00:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Student_inlineRadioOptions")): Object: 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Student_inlineRadioOptions' is clicked on
+
+2020-08-19 00:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Student_inlineRadioOptions' is clicked on
+
+2020-08-19 00:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/DOB"), findTestData("Testdata_External").getValue("DOB", 3)): Text '6251990' is set on object 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/DOB'
+
+2020-08-19 00:10:47 - [MESSAGE][PASSED] - Text '6251990' is set on object 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/DOB'
+
+2020-08-19 00:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Date of Birth_btn btn-success")): Object: 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Date of Birth_btn btn-success' is clicked on
+
+2020-08-19 00:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Date of Birth_btn btn-success' is clicked on
+
+2020-08-19 00:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/div_                    Success The Form ha_13b099")): Object: 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/div_                    Success The Form ha_13b099' is clicked on
+
+2020-08-19 00:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/div_                    Success The Form ha_13b099' is clicked on
+
+2020-08-19 00:10:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-19 00:10:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-19 00:09:07 - [TEST_SUITE][PASSED] - July Release tcs: Test Cases/TestCase2_ecommerce]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
