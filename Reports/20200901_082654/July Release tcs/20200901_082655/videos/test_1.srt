@@ -1,0 +1,48 @@
+1
+00:00:03,149 --> 00:00:03,208
+1. openBrowser("")
+
+2
+00:00:25,941 --> 00:00:25,947
+5. navigateToUrl(findTestData("Testdata_Internal").getValue("URL", 1))
+
+3
+00:00:32,708 --> 00:00:32,713
+9. setText(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Username_username"), findTestData("Testdata_Internal").getValue("UserName", 1))
+
+4
+00:00:35,325 --> 00:00:35,330
+13. setEncryptedText(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Password_password"), findTestData("Testdata_Internal").getValue("Password", 1))
+
+5
+00:00:36,958 --> 00:00:36,961
+17. click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/button_Login"))
+
+6
+00:00:38,941 --> 00:00:38,946
+21. selectOptionByValue(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true)
+
+7
+00:00:42,217 --> 00:00:42,220
+25. click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f"))
+
+8
+00:00:43,407 --> 00:00:43,408
+29. click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"))
+
+9
+00:00:46,812 --> 00:00:46,812
+33. click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/td_25"))
+
+10
+00:00:48,178 --> 00:00:48,182
+37. setText(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/textarea_Comment_comment"), findTestData("Testdata_Internal").getValue("Comments", 1))
+
+11
+00:00:50,873 --> 00:00:50,874
+41. click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/button_Book Appointment"))
+
+12
+00:01:06,864 --> 00:01:06,869
+45. click(findTestObject("Object Repository/Testcase1_Helth care/Page_CURA Healthcare Service/h2_Appointment Confirmation"))
+

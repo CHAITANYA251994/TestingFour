@@ -1,0 +1,12 @@
+1
+00:00:02,122 --> 00:00:02,164
+1. openBrowser("")
+
+2
+00:00:10,479 --> 00:00:10,483
+5. navigateToUrl(findTestData("Testdata_External").getValue("URL", 3))
+
+3
+00:00:20,800 --> 00:00:20,802
+9. setText(findTestObject("Object Repository/TestCase2_ecommerce/Page_ProtoCommerce/input_Name_name"), findTestData("Testdata_External").getValue("UserName", 3))
+
